@@ -37,7 +37,7 @@ document.querySelector('#button').onclick= function(){
 
  else if(v<parseInt(x)){
    document.querySelector('.alert').className='alert alert-primary collapse'
-   document.querySelector("#alert1").innerHTML='Guess Something Small'
+   document.querySelector("#alert1").innerHTML='Guess Something Small';
    $('.alert').show('fade');
    document.querySelector('#result').appendChild(y);
    document.querySelector("input").value=''
